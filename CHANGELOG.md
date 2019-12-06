@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.1.0](https://www.github.com/yargs/yargs/compare/v15.0.2...v15.1.0) (2019-12-06)
+
+
+### Features
+
+* onFinishCommand handler ([#1473](https://www.github.com/yargs/yargs/issues/1473)) ([fe380cd](https://www.github.com/yargs/yargs/commit/fe380cd356aa33aef0449facd59c22cab8930ac9))
+
+
+### Bug Fixes
+
+* getCompletion() was not working for options ([#1495](https://www.github.com/yargs/yargs/issues/1495)) ([463feb2](https://www.github.com/yargs/yargs/commit/463feb2870158eb9df670222b0f0a40a05cf18d0))
+* misspelling of package.json `engines` field ([0891d0e](https://www.github.com/yargs/yargs/commit/0891d0ed35b30c83a6d9e9f6a5c5f84d13c546a0))
+* populate positionals when unknown-options-as-args is set ([#1508](https://www.github.com/yargs/yargs/issues/1508)) ([bb0f2eb](https://www.github.com/yargs/yargs/commit/bb0f2eb996fa4e19d330b31a01c2036cafa99a7e)), closes [#1444](https://www.github.com/yargs/yargs/issues/1444)
+* show 2 dashes on help for single digit option key or alias ([#1493](https://www.github.com/yargs/yargs/issues/1493)) ([63b3dd3](https://www.github.com/yargs/yargs/commit/63b3dd31a455d428902220c1992ae930e18aff5c))
+
 ### [15.0.2](https://www.github.com/yargs/yargs/compare/v15.0.1...v15.0.2) (2019-11-19)
 
 
